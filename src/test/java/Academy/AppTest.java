@@ -10,7 +10,13 @@ public class AppTest
 		System.out.println("helllo USA");
 		System.out.println("helllo USA");
 		System.out.println("helllo USA");
-		System.out.println("helllo USA");
-		
+
+		System.out.println("helllo munnekolala");
+		System.out.println("helllo munnekolala");		
+		System.out.println("helllo munnekolala");
+		System.out.println("helllo munnekolala");
+		System.out.println("helllo munnekolala");
+		System.out.println("helllo munnekolala");
+				
 	}
 }
