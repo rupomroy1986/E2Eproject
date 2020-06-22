@@ -2,9 +2,9 @@ package Academy;
 
 import java.io.IOException;
 
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -17,45 +17,40 @@ import pageObjects.LandingPage;
 import pageObjects.LoginPage;
 import resources.base;
 
-public class validateTitle extends base{
-	 public static Logger log =LogManager.getLogger(base.class.getName());
+public class validateTitle extends base {
+	public WebDriver driver;
+	public static Logger log = LogManager.getLogger(base.class.getName());
+
 	@BeforeTest
-	public void initialize() throws IOException
-	{
-	
-		 driver =initializeDriver();
-		 log.info("Driver is initialized");
-			
+	public void initialize() throws IOException {
+
+		driver = initializeDriver();
+		log.info("Driver is initialized for validated title page");
+
 		driver.get(prop.getProperty("url"));
-		 log.info("Navigated to Home page");
+		log.info("Navigated to Home page to validate the title of the featured courses");
 	}
+
 	@Test
-	
-	public void validateAppTitle() throws IOException
-	{
-		
-		//one is inheritance
+
+	public void validateAppTitle() throws IOException {
+
+		// one is inheritance
 		// creating object to that class and invoke methods of it
-		LandingPage l=new LandingPage(driver);
-		//compare the text from the browser with actual text.- Error..
-		Assert.assertEquals(l.getTitle().getText(), "FEATURED CO123URSES");
-		 log.info("Successfully validated Text message");
-		 System.out.println("Test completed");
-		 
-		;
-	
-		
-		}
-	@AfterTest
-	public void teardown()
-	{
-		
-		driver.close();
-		driver=null;
-		
+		LandingPage l = new LandingPage(driver);
+		// compare the text from the browser with actual text.- Error..
+		Assert.assertEquals(l.getTitle().getText(), "FEATURED COURSES");
+		log.info("Successfully validated Text message on dated june 19th, 2020");
+		System.out.println("Test completed");
+
 	}
 
-	
+	@AfterTest
+	public void teardown() {
 
-	
+		driver.close();
+		driver = null;
+
+	}
+
 }

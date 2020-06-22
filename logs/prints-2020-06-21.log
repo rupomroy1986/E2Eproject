@@ -1,0 +1,6 @@
+21:51:54.231 [TestNG-tests-4] INFO  resources.base - Navigation Bar is displayed
+21:51:56.014 [TestNG-tests-1] INFO  resources.base - Restrcited User
+21:53:37.202 [TestNG] INFO  resources.base - Driver is initialized for the home page
+21:53:37.329 [TestNG] INFO  resources.base -  driver is initialized for bar validation checking
+21:53:37.885 [TestNG] INFO  resources.base - Driver is initialized for validated title page
+21:53:47.833 [TestNG] INFO  resources.base - Navigated to Home page to validate the title of the featured courses

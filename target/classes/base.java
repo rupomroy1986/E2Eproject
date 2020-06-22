@@ -30,7 +30,7 @@ System.out.println(browserName);
 
 if(browserName.equals("chrome"))
 {
-	 System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "C:\\\\\\\\Cucumber\\\\\\\\83\\\\\\\\chromedriver.exe");
 	driver= new ChromeDriver();
 		//execute in chrome driver
 	
@@ -51,11 +51,16 @@ return driver;
 
 }
 
-public void getScreenshot(String result) throws IOException
+public String getScreenShotPath(String testCaseName,WebDriver driver) throws IOException
 {
-	File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	FileUtils.copyFile(src, new File("C://test//"+result+"screenshot.png"));
+	TakesScreenshot ts=(TakesScreenshot) driver;
+	File source =ts.getScreenshotAs(OutputType.FILE);
+	String destinationFile = System.getProperty("user.dir")+"\\reports\\"+testCaseName+".png";
+	FileUtils.copyFile(source,new File(destinationFile));
+	return destinationFile;
 	
+
+
 }
 
 

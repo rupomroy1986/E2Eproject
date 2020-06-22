@@ -1,0 +1,6 @@
+23:37:56.093 [main] INFO  resources.base - Restrcited User
+23:38:14.024 [main] INFO  resources.base - Driver is initialized for validated title page
+23:38:19.674 [main] INFO  resources.base - Navigated to Home page to validate the title of the featured courses
+23:38:19.779 [main] INFO  resources.base - Successfully validated Text message on dated june 19th, 2020
+23:38:22.280 [main] INFO  resources.base -  driver is initialized for bar validation checking
+23:38:26.939 [main] INFO  resources.base -  url initiated for the navigation bar validations

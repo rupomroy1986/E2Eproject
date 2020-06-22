@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
   <listeners>
     <listener class-name="Academy.listeners"/>
-    <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="Validating User login(failed)">
+  <test thread-count="5" name="Validating User login(failed)" parallel="tests">
     <classes>
-      <class name="cucumberOptions.testRunner">
+      <class name="Academy.HomePage">
         <methods>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
+          <include name="basePageNavigation" invocation-numbers="1"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- cucumberOptions.testRunner -->
+      </class> <!-- Academy.HomePage -->
     </classes>
   </test> <!-- Validating User login(failed) -->
 </suite> <!-- Failed suite [Suite] -->

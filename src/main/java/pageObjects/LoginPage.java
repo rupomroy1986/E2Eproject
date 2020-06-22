@@ -12,7 +12,7 @@ public class LoginPage {
 	By email=By.cssSelector("[id='user_email']");
 	By password=By.cssSelector("[type='password']");
 	By login=By.cssSelector("[value='Log In']");
-	
+	By forgotPassword=By.cssSelector("[href*='password/new']");
 	
 	
 	
@@ -23,7 +23,14 @@ public class LoginPage {
 		
 	}
 
-
+     public ForgotPassword forgotpassword()
+     {
+    	 driver.findElement(forgotPassword).click();
+    	 ForgotPassword fp=new ForgotPassword(driver);
+    	 return fp;
+    	 
+    	 
+     }
 
 
 	public WebElement getEmail()
@@ -35,6 +42,7 @@ public class LoginPage {
 	public WebElement getPassword()
 	{
 		return driver.findElement(password);
+		
 	}
 	
 	public WebElement getLogin()

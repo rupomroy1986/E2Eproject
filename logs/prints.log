@@ -1,2 +1,3 @@
-17:51:43.880 [main] INFO  resources.base - Navigated to Home page
-17:51:56.358 [main] INFO  resources.base - Navigation Bar is displayed
+16:22:49.584 [TestNG] INFO  resources.base - Navigated to Home page to validate the title of the featured courses
+16:22:49.784 [TestNG] INFO  resources.base - Successfully validated Text message on dated june 19th, 2020
+16:22:55.528 [TestNG] INFO  resources.base - Restrcited User

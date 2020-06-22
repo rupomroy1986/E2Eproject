@@ -28,11 +28,25 @@ public class LandingPage {
 
 
 
-
-	public WebElement getLogin()
+//1st way
+	/*public WebElement getLogin()
 	{
 		return driver.findElement(signin);
+	}*/
+	
+	//2nd way
+	public WebElement getLogin()
+	{
+		/*//2nd method
+		driver.findElement(signin).click();*/
+		//1st method
+		return driver.findElement(signin);
+		/*LoginPage lp = new LoginPage(driver);
+		return lp;*/
 	}
+	
+	
+	
 	public WebElement getNavigationBar()
 	{
 		return driver.findElement(NavBar);
