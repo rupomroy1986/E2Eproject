@@ -2,50 +2,50 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36850" started-at="2020-06-22T10:52:33Z" finished-at="2020-06-22T10:53:09Z">
+  <suite name="Suite" duration-ms="77510" started-at="2020-06-22T12:30:30Z" finished-at="2020-06-22T12:31:47Z">
     <groups>
     </groups>
-    <test name="App Testing" duration-ms="5" started-at="2020-06-22T10:52:33Z" finished-at="2020-06-22T10:52:33Z">
+    <test name="App Testing" duration-ms="6" started-at="2020-06-22T12:30:30Z" finished-at="2020-06-22T12:30:30Z">
     </test> <!-- App Testing -->
-    <test name="Validating title in the Page" duration-ms="18531" started-at="2020-06-22T10:52:33Z" finished-at="2020-06-22T10:52:51Z">
-      <class name="Academy.validateTitle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@66f57048]" name="initialize" is-config="true" duration-ms="16575" started-at="2020-06-22T16:22:33Z" finished-at="2020-06-22T16:22:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Academy.validateTitle@66f57048]" name="validateAppTitle" duration-ms="187" started-at="2020-06-22T16:22:49Z" finished-at="2020-06-22T16:22:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateAppTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateTitle@66f57048]" name="teardown" is-config="true" duration-ms="1765" started-at="2020-06-22T16:22:49Z" finished-at="2020-06-22T16:22:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Academy.validateTitle -->
-    </test> <!-- Validating title in the Page -->
-    <test name="Validating navigation Bar" duration-ms="18704" started-at="2020-06-22T10:52:33Z" finished-at="2020-06-22T10:52:51Z">
+    <test name="Validating navigation Bar" duration-ms="53721" started-at="2020-06-22T12:30:30Z" finished-at="2020-06-22T12:31:24Z">
       <class name="Academy.validateNavigationBar">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateNavigationBar@49049a04]" name="initialize" is-config="true" duration-ms="16053" started-at="2020-06-22T16:22:33Z" finished-at="2020-06-22T16:22:49Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateNavigationBar@49049a04]" name="initialize" is-config="true" duration-ms="45836" started-at="2020-06-22T18:00:30Z" finished-at="2020-06-22T18:01:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:Academy.validateNavigationBar@49049a04]" name="validateAppNavBar" duration-ms="277" started-at="2020-06-22T16:22:49Z" finished-at="2020-06-22T16:22:49Z">
+        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:Academy.validateNavigationBar@49049a04]" name="validateAppNavBar" duration-ms="246" started-at="2020-06-22T18:01:16Z" finished-at="2020-06-22T18:01:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAppNavBar -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateNavigationBar@49049a04]" name="teardown" is-config="true" duration-ms="2358" started-at="2020-06-22T16:22:49Z" finished-at="2020-06-22T16:22:51Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateNavigationBar@49049a04]" name="teardown" is-config="true" duration-ms="7620" started-at="2020-06-22T18:01:16Z" finished-at="2020-06-22T18:01:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Academy.validateNavigationBar -->
     </test> <!-- Validating navigation Bar -->
-    <test name="Validating User login" duration-ms="36850" started-at="2020-06-22T10:52:33Z" finished-at="2020-06-22T10:53:09Z">
-      <class name="Academy.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@e15b7e8]" name="initialize" is-config="true" duration-ms="4396" started-at="2020-06-22T16:22:33Z" finished-at="2020-06-22T16:22:37Z">
+    <test name="Validating title in the Page" duration-ms="68731" started-at="2020-06-22T12:30:30Z" finished-at="2020-06-22T12:31:39Z">
+      <class name="Academy.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@66f57048]" name="initialize" is-config="true" duration-ms="49265" started-at="2020-06-22T18:00:30Z" finished-at="2020-06-22T18:01:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@e15b7e8]" name="basePageNavigation" duration-ms="19096" started-at="2020-06-22T16:22:37Z" data-provider="getData" finished-at="2020-06-22T16:22:56Z">
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Academy.validateTitle@66f57048]" name="validateAppTitle" duration-ms="51" started-at="2020-06-22T18:01:19Z" finished-at="2020-06-22T18:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateTitle@66f57048]" name="teardown" is-config="true" duration-ms="19413" started-at="2020-06-22T18:01:19Z" finished-at="2020-06-22T18:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- Validating title in the Page -->
+    <test name="Validating User login" duration-ms="77510" started-at="2020-06-22T12:30:30Z" finished-at="2020-06-22T12:31:47Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@e15b7e8]" name="initialize" is-config="true" duration-ms="6081" started-at="2020-06-22T18:00:30Z" finished-at="2020-06-22T18:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@e15b7e8]" name="basePageNavigation" duration-ms="49076" started-at="2020-06-22T18:00:36Z" data-provider="getData" finished-at="2020-06-22T18:01:25Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="FAIL" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@e15b7e8]" name="basePageNavigation" duration-ms="12720" started-at="2020-06-22T16:22:56Z" data-provider="getData" finished-at="2020-06-22T16:23:09Z">
+        <test-method status="FAIL" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@e15b7e8]" name="basePageNavigation" duration-ms="14971" started-at="2020-06-22T18:01:25Z" data-provider="getData" finished-at="2020-06-22T18:01:40Z">
           <params>
             <param index="0">
               <value>
@@ -92,8 +92,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'RUPOM-RUPS', ip: '192.168.0.106', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\rupom\AppData\Local\Temp\scoped_dir18040_148340319}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53039}, acceptInsecureCerts=false, browserVersion=83.0.4103.106, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
-Session ID: bab82353f223c427503766287d4bc779
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\rupom\AppData\Local\Temp\scoped_dir19480_527199235}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55695}, acceptInsecureCerts=false, browserVersion=83.0.4103.106, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 347fd87b539b850c2bb2e80120a5ef4b
 *** Element info: {Using=css selector, value=[id='user_email']}]]>
             </message>
             <full-stacktrace>
@@ -103,8 +103,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'RUPOM-RUPS', ip: '192.168.0.106', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\rupom\AppData\Local\Temp\scoped_dir18040_148340319}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53039}, acceptInsecureCerts=false, browserVersion=83.0.4103.106, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
-Session ID: bab82353f223c427503766287d4bc779
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\rupom\AppData\Local\Temp\scoped_dir19480_527199235}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55695}, acceptInsecureCerts=false, browserVersion=83.0.4103.106, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 347fd87b539b850c2bb2e80120a5ef4b
 *** Element info: {Using=css selector, value=[id='user_email']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -148,7 +148,7 @@ Session ID: bab82353f223c427503766287d4bc779
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@e15b7e8]" name="teardown" is-config="true" duration-ms="253" started-at="2020-06-22T16:23:09Z" finished-at="2020-06-22T16:23:09Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@e15b7e8]" name="teardown" is-config="true" duration-ms="6991" started-at="2020-06-22T18:01:40Z" finished-at="2020-06-22T18:01:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

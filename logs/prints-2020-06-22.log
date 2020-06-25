@@ -1,6 +1,6 @@
-16:20:25.360 [TestNG] INFO  resources.base - Restrcited User
-16:22:37.406 [TestNG] INFO  resources.base - Driver is initialized for the home page
-16:22:37.791 [TestNG] INFO  resources.base -  driver is initialized for bar validation checking
-16:22:37.859 [TestNG] INFO  resources.base - Driver is initialized for validated title page
-16:22:49.072 [TestNG] INFO  resources.base -  url initiated for the navigation bar validations
-16:22:49.351 [TestNG] INFO  resources.base - Navigation Bar is displayed
+17:43:14.463 [TestNG] INFO  resources.base -  url initiated for the navigation bar validations
+17:43:14.944 [TestNG] INFO  resources.base - Successfully validated Text message on dated june 19th, 2020
+17:43:15.089 [TestNG] INFO  resources.base - Navigation Bar is displayed
+17:43:21.978 [TestNG] INFO  resources.base - Restrcited User
+18:00:35.734 [TestNG] INFO  resources.base - Driver is initialized for validated title page
+18:00:36.434 [TestNG] INFO  resources.base - Driver is initialized for the home page

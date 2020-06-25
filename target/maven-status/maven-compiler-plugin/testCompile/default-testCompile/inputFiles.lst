@@ -1,7 +1,7 @@
-D:\API TESTING\E2EProject\src\test\java\Academy\validateNavigationBar.java
-D:\API TESTING\E2EProject\src\test\java\cucumberOptions\testRunner.java
-D:\API TESTING\E2EProject\src\test\java\Academy\listeners.java
-D:\API TESTING\E2EProject\src\test\java\Academy\HomePage.java
-D:\API TESTING\E2EProject\src\test\java\stepDefinations\stepDefination.java
-D:\API TESTING\E2EProject\src\test\java\Academy\validateTitle.java
-D:\API TESTING\E2EProject\src\test\java\Academy\AppTest.java
+C:\Framework execution selenium\E2Eproject\src\test\java\Academy\listeners.java
+C:\Framework execution selenium\E2Eproject\src\test\java\stepDefinations\stepDefination.java
+C:\Framework execution selenium\E2Eproject\src\test\java\Academy\validateNavigationBar.java
+C:\Framework execution selenium\E2Eproject\src\test\java\Academy\AppTest.java
+C:\Framework execution selenium\E2Eproject\src\test\java\Academy\HomePage.java
+C:\Framework execution selenium\E2Eproject\src\test\java\cucumberOptions\testRunner.java
+C:\Framework execution selenium\E2Eproject\src\test\java\Academy\validateTitle.java
