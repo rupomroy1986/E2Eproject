@@ -1,0 +1,6 @@
+13:41:00.949 [TestNG] INFO  resources.base -  url initiated for the navigation bar validations
+13:41:01.277 [TestNG] INFO  resources.base - Navigation Bar is displayed
+13:41:01.305 [TestNG] INFO  resources.base - Navigated to Home page to validate the title of the featured courses
+13:41:01.505 [TestNG] INFO  resources.base - Successfully validated Text message on dated june 19th, 2020
+13:41:04.230 [TestNG] INFO  resources.base - Restrcited User
+13:41:08.791 [TestNG] INFO  resources.base - Non restricted user

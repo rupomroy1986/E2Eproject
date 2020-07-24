@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="Academy.listeners"/>
   </listeners>
-  <test thread-count="5" name="Validating User login(failed)" parallel="tests">
+  <test thread-count="5" name="Validating navigation Bar(failed)" parallel="tests">
     <classes>
-      <class name="Academy.HomePage">
+      <class name="Academy.validateNavigationBar">
         <methods>
-          <include name="basePageNavigation" invocation-numbers="1"/>
           <include name="initialize"/>
+          <include name="validateAppNavBar"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- Academy.HomePage -->
+      </class> <!-- Academy.validateNavigationBar -->
     </classes>
-  </test> <!-- Validating User login(failed) -->
+  </test> <!-- Validating navigation Bar(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,5 +1,8 @@
+Academy\Hello.class
 pageObjects\portalhomepage.class
 resources\base.class
+resources\ExtentReporterNG.class
 pageObjects\LandingPage.class
 pageObjects\LoginPage.class
+pageObjects\ForgotPassword.class
 Academy\App.class
