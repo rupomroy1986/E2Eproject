@@ -34,7 +34,9 @@ if(browserName.equals("chrome"))
 {
 	 //System.setProperty("webdriver.chrome.driver", "C:\\\\\\\\Cucumber Latest\\\\\\\\83\\\\\\\\chromedriver.exe");
 	//here we have set up the dynamic path.
-	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\chromedriver.exe");
+	//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\Framework execution selenium\\chromedriver.exe");
+
 	 ChromeOptions a1=new ChromeOptions();
 	 if(browserName.contains("headless"))
 	 {

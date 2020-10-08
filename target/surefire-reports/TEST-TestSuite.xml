@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.38" tests="10" errors="0" skipped="7" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="13.267" tests="10" errors="0" skipped="7" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
     <property name="java.vm.version" value="25.161-b12"/>
-    <property name="browser" value="chromeheadless"/>
+    <property name="browser" value="chrome"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Framework execution selenium\E2Eproject"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=chromeheadless"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=chrome"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,23 +65,123 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initialize" classname="Academy.validateTitle" time="2.204">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at Academy.validateTitle.initialize(validateTitle.java:27)
+  <testcase name="initialize" classname="Academy.HomePage" time="9.977">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;RUPOM-RUPS&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00F49563+2725219]&#10;	Ordinal0 [0x00E48551+1672529]&#10;	Ordinal0 [0x00D30359+525145]&#10;	Ordinal0 [0x00CC0B77+68471]&#10;	Ordinal0 [0x00CBD32C+54060]&#10;	Ordinal0 [0x00CDCC37+183351]&#10;	Ordinal0 [0x00CDCA3D+182845]&#10;	Ordinal0 [0x00CDA94B+174411]&#10;	Ordinal0 [0x00CC2528+75048]&#10;	Ordinal0 [0x00CC35A0+79264]&#10;	Ordinal0 [0x00CC3539+79161]&#10;	Ordinal0 [0x00E5D607+1758727]&#10;	GetHandleVerifier [0x01066546+1050150]&#10;	GetHandleVerifier [0x01066291+1049457]&#10;	GetHandleVerifier [0x010710D7+1094071]&#10;	GetHandleVerifier [0x01066B46+1051686]&#10;	Ordinal0 [0x00E55B06+1727238]&#10;	Ordinal0 [0x00E5EB7B+1764219]&#10;	Ordinal0 [0x00E5ECE3+1764579]&#10;	Ordinal0 [0x00E74C05+1854469]&#10;	BaseThreadInitThunk [0x7535919F+14]&#10;	RtlInitializeExceptionChain [0x7746AD8F+143]&#10;	RtlInitializeExceptionChain [0x7746AD5A+90]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPOM-RUPS', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F49563+2725219]
+	Ordinal0 [0x00E48551+1672529]
+	Ordinal0 [0x00D30359+525145]
+	Ordinal0 [0x00CC0B77+68471]
+	Ordinal0 [0x00CBD32C+54060]
+	Ordinal0 [0x00CDCC37+183351]
+	Ordinal0 [0x00CDCA3D+182845]
+	Ordinal0 [0x00CDA94B+174411]
+	Ordinal0 [0x00CC2528+75048]
+	Ordinal0 [0x00CC35A0+79264]
+	Ordinal0 [0x00CC3539+79161]
+	Ordinal0 [0x00E5D607+1758727]
+	GetHandleVerifier [0x01066546+1050150]
+	GetHandleVerifier [0x01066291+1049457]
+	GetHandleVerifier [0x010710D7+1094071]
+	GetHandleVerifier [0x01066B46+1051686]
+	Ordinal0 [0x00E55B06+1727238]
+	Ordinal0 [0x00E5EB7B+1764219]
+	Ordinal0 [0x00E5ECE3+1764579]
+	Ordinal0 [0x00E74C05+1854469]
+	BaseThreadInitThunk [0x7535919F+14]
+	RtlInitializeExceptionChain [0x7746AD8F+143]
+	RtlInitializeExceptionChain [0x7746AD5A+90]
+
+	at Academy.HomePage.initialize(HomePage.java:28)
 </failure>
-    <system-out><![CDATA[chromeheadless
-chromeheadless
-chromeheadless
+    <system-out><![CDATA[chrome
+chrome
+chrome
 ]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 38368
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keepStarting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 4375
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 20754
+Only local connections are allowed.
+Please see https://chriomedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ng ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+]]></system-err>
   </testcase>
-  <testcase name="initialize" classname="Academy.validateNavigationBar" time="2.212">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+  <testcase name="initialize" classname="Academy.validateNavigationBar" time="9.981">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;RUPOM-RUPS&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00F49563+2725219]&#10;	Ordinal0 [0x00E48551+1672529]&#10;	Ordinal0 [0x00D30359+525145]&#10;	Ordinal0 [0x00CC0B77+68471]&#10;	Ordinal0 [0x00CBD32C+54060]&#10;	Ordinal0 [0x00CDCC37+183351]&#10;	Ordinal0 [0x00CDCA3D+182845]&#10;	Ordinal0 [0x00CDA94B+174411]&#10;	Ordinal0 [0x00CC2528+75048]&#10;	Ordinal0 [0x00CC35A0+79264]&#10;	Ordinal0 [0x00CC3539+79161]&#10;	Ordinal0 [0x00E5D607+1758727]&#10;	GetHandleVerifier [0x01066546+1050150]&#10;	GetHandleVerifier [0x01066291+1049457]&#10;	GetHandleVerifier [0x010710D7+1094071]&#10;	GetHandleVerifier [0x01066B46+1051686]&#10;	Ordinal0 [0x00E55B06+1727238]&#10;	Ordinal0 [0x00E5EB7B+1764219]&#10;	Ordinal0 [0x00E5ECE3+1764579]&#10;	Ordinal0 [0x00E74C05+1854469]&#10;	BaseThreadInitThunk [0x7535919F+14]&#10;	RtlInitializeExceptionChain [0x7746AD8F+143]&#10;	RtlInitializeExceptionChain [0x7746AD5A+90]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPOM-RUPS', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F49563+2725219]
+	Ordinal0 [0x00E48551+1672529]
+	Ordinal0 [0x00D30359+525145]
+	Ordinal0 [0x00CC0B77+68471]
+	Ordinal0 [0x00CBD32C+54060]
+	Ordinal0 [0x00CDCC37+183351]
+	Ordinal0 [0x00CDCA3D+182845]
+	Ordinal0 [0x00CDA94B+174411]
+	Ordinal0 [0x00CC2528+75048]
+	Ordinal0 [0x00CC35A0+79264]
+	Ordinal0 [0x00CC3539+79161]
+	Ordinal0 [0x00E5D607+1758727]
+	GetHandleVerifier [0x01066546+1050150]
+	GetHandleVerifier [0x01066291+1049457]
+	GetHandleVerifier [0x010710D7+1094071]
+	GetHandleVerifier [0x01066B46+1051686]
+	Ordinal0 [0x00E55B06+1727238]
+	Ordinal0 [0x00E5EB7B+1764219]
+	Ordinal0 [0x00E5ECE3+1764579]
+	Ordinal0 [0x00E74C05+1854469]
+	BaseThreadInitThunk [0x7535919F+14]
+	RtlInitializeExceptionChain [0x7746AD8F+143]
+	RtlInitializeExceptionChain [0x7746AD5A+90]
+
 	at Academy.validateNavigationBar.initialize(validateNavigationBar.java:33)
 </failure>
   </testcase>
-  <testcase name="initialize" classname="Academy.HomePage" time="2.212">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at Academy.HomePage.initialize(HomePage.java:28)
+  <testcase name="initialize" classname="Academy.validateTitle" time="9.981">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;RUPOM-RUPS&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00F49563+2725219]&#10;	Ordinal0 [0x00E48551+1672529]&#10;	Ordinal0 [0x00D30359+525145]&#10;	Ordinal0 [0x00CC0B77+68471]&#10;	Ordinal0 [0x00CBD32C+54060]&#10;	Ordinal0 [0x00CDCC37+183351]&#10;	Ordinal0 [0x00CDCA3D+182845]&#10;	Ordinal0 [0x00CDA94B+174411]&#10;	Ordinal0 [0x00CC2528+75048]&#10;	Ordinal0 [0x00CC35A0+79264]&#10;	Ordinal0 [0x00CC3539+79161]&#10;	Ordinal0 [0x00E5D607+1758727]&#10;	GetHandleVerifier [0x01066546+1050150]&#10;	GetHandleVerifier [0x01066291+1049457]&#10;	GetHandleVerifier [0x010710D7+1094071]&#10;	GetHandleVerifier [0x01066B46+1051686]&#10;	Ordinal0 [0x00E55B06+1727238]&#10;	Ordinal0 [0x00E5EB7B+1764219]&#10;	Ordinal0 [0x00E5ECE3+1764579]&#10;	Ordinal0 [0x00E74C05+1854469]&#10;	BaseThreadInitThunk [0x7535919F+14]&#10;	RtlInitializeExceptionChain [0x7746AD8F+143]&#10;	RtlInitializeExceptionChain [0x7746AD5A+90]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPOM-RUPS', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F49563+2725219]
+	Ordinal0 [0x00E48551+1672529]
+	Ordinal0 [0x00D30359+525145]
+	Ordinal0 [0x00CC0B77+68471]
+	Ordinal0 [0x00CBD32C+54060]
+	Ordinal0 [0x00CDCC37+183351]
+	Ordinal0 [0x00CDCA3D+182845]
+	Ordinal0 [0x00CDA94B+174411]
+	Ordinal0 [0x00CC2528+75048]
+	Ordinal0 [0x00CC35A0+79264]
+	Ordinal0 [0x00CC3539+79161]
+	Ordinal0 [0x00E5D607+1758727]
+	GetHandleVerifier [0x01066546+1050150]
+	GetHandleVerifier [0x01066291+1049457]
+	GetHandleVerifier [0x010710D7+1094071]
+	GetHandleVerifier [0x01066B46+1051686]
+	Ordinal0 [0x00E55B06+1727238]
+	Ordinal0 [0x00E5EB7B+1764219]
+	Ordinal0 [0x00E5ECE3+1764579]
+	Ordinal0 [0x00E74C05+1854469]
+	BaseThreadInitThunk [0x7535919F+14]
+	RtlInitializeExceptionChain [0x7746AD8F+143]
+	RtlInitializeExceptionChain [0x7746AD5A+90]
+
+	at Academy.validateTitle.initialize(validateTitle.java:27)
 </failure>
   </testcase>
   <testcase name="basePageNavigation" classname="Academy.HomePage" time="0">
@@ -93,9 +193,6 @@ chromeheadless
   <testcase name="validateAppNavBar" classname="Academy.validateNavigationBar" time="0">
     <skipped/>
   </testcase>
-  <testcase name="teardown" classname="Academy.HomePage" time="0">
-    <skipped/>
-  </testcase>
   <testcase name="validateAppTitle" classname="Academy.validateTitle" time="0">
     <skipped/>
   </testcase>
@@ -103,6 +200,9 @@ chromeheadless
     <skipped/>
   </testcase>
   <testcase name="teardown" classname="Academy.validateNavigationBar" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="Academy.HomePage" time="0">
     <skipped/>
   </testcase>
 </testsuite>

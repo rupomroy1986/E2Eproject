@@ -1,16 +1,103 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 3.38 s <<< FAILURE! - in TestSuite
-initialize(Academy.validateTitle)  Time elapsed: 2.204 s  <<< FAILURE!
-java.lang.NullPointerException
-	at Academy.validateTitle.initialize(validateTitle.java:27)
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 13.267 s <<< FAILURE! - in TestSuite
+initialize(Academy.HomePage)  Time elapsed: 9.977 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPOM-RUPS', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F49563+2725219]
+	Ordinal0 [0x00E48551+1672529]
+	Ordinal0 [0x00D30359+525145]
+	Ordinal0 [0x00CC0B77+68471]
+	Ordinal0 [0x00CBD32C+54060]
+	Ordinal0 [0x00CDCC37+183351]
+	Ordinal0 [0x00CDCA3D+182845]
+	Ordinal0 [0x00CDA94B+174411]
+	Ordinal0 [0x00CC2528+75048]
+	Ordinal0 [0x00CC35A0+79264]
+	Ordinal0 [0x00CC3539+79161]
+	Ordinal0 [0x00E5D607+1758727]
+	GetHandleVerifier [0x01066546+1050150]
+	GetHandleVerifier [0x01066291+1049457]
+	GetHandleVerifier [0x010710D7+1094071]
+	GetHandleVerifier [0x01066B46+1051686]
+	Ordinal0 [0x00E55B06+1727238]
+	Ordinal0 [0x00E5EB7B+1764219]
+	Ordinal0 [0x00E5ECE3+1764579]
+	Ordinal0 [0x00E74C05+1854469]
+	BaseThreadInitThunk [0x7535919F+14]
+	RtlInitializeExceptionChain [0x7746AD8F+143]
+	RtlInitializeExceptionChain [0x7746AD5A+90]
 
-initialize(Academy.validateNavigationBar)  Time elapsed: 2.212 s  <<< FAILURE!
-java.lang.NullPointerException
+	at Academy.HomePage.initialize(HomePage.java:28)
+
+initialize(Academy.validateNavigationBar)  Time elapsed: 9.981 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPOM-RUPS', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F49563+2725219]
+	Ordinal0 [0x00E48551+1672529]
+	Ordinal0 [0x00D30359+525145]
+	Ordinal0 [0x00CC0B77+68471]
+	Ordinal0 [0x00CBD32C+54060]
+	Ordinal0 [0x00CDCC37+183351]
+	Ordinal0 [0x00CDCA3D+182845]
+	Ordinal0 [0x00CDA94B+174411]
+	Ordinal0 [0x00CC2528+75048]
+	Ordinal0 [0x00CC35A0+79264]
+	Ordinal0 [0x00CC3539+79161]
+	Ordinal0 [0x00E5D607+1758727]
+	GetHandleVerifier [0x01066546+1050150]
+	GetHandleVerifier [0x01066291+1049457]
+	GetHandleVerifier [0x010710D7+1094071]
+	GetHandleVerifier [0x01066B46+1051686]
+	Ordinal0 [0x00E55B06+1727238]
+	Ordinal0 [0x00E5EB7B+1764219]
+	Ordinal0 [0x00E5ECE3+1764579]
+	Ordinal0 [0x00E74C05+1854469]
+	BaseThreadInitThunk [0x7535919F+14]
+	RtlInitializeExceptionChain [0x7746AD8F+143]
+	RtlInitializeExceptionChain [0x7746AD5A+90]
+
 	at Academy.validateNavigationBar.initialize(validateNavigationBar.java:33)
 
-initialize(Academy.HomePage)  Time elapsed: 2.212 s  <<< FAILURE!
-java.lang.NullPointerException
-	at Academy.HomePage.initialize(HomePage.java:28)
+initialize(Academy.validateTitle)  Time elapsed: 9.981 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPOM-RUPS', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F49563+2725219]
+	Ordinal0 [0x00E48551+1672529]
+	Ordinal0 [0x00D30359+525145]
+	Ordinal0 [0x00CC0B77+68471]
+	Ordinal0 [0x00CBD32C+54060]
+	Ordinal0 [0x00CDCC37+183351]
+	Ordinal0 [0x00CDCA3D+182845]
+	Ordinal0 [0x00CDA94B+174411]
+	Ordinal0 [0x00CC2528+75048]
+	Ordinal0 [0x00CC35A0+79264]
+	Ordinal0 [0x00CC3539+79161]
+	Ordinal0 [0x00E5D607+1758727]
+	GetHandleVerifier [0x01066546+1050150]
+	GetHandleVerifier [0x01066291+1049457]
+	GetHandleVerifier [0x010710D7+1094071]
+	GetHandleVerifier [0x01066B46+1051686]
+	Ordinal0 [0x00E55B06+1727238]
+	Ordinal0 [0x00E5EB7B+1764219]
+	Ordinal0 [0x00E5ECE3+1764579]
+	Ordinal0 [0x00E74C05+1854469]
+	BaseThreadInitThunk [0x7535919F+14]
+	RtlInitializeExceptionChain [0x7746AD8F+143]
+	RtlInitializeExceptionChain [0x7746AD5A+90]
+
+	at Academy.validateTitle.initialize(validateTitle.java:27)
 

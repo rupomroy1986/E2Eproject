@@ -4,26 +4,6 @@
   <listeners>
     <listener class-name="Academy.listeners"/>
   </listeners>
-  <test name="Validating User login(failed)" parallel="tests">
-    <classes>
-      <class name="Academy.HomePage">
-        <methods>
-          <include name="basePageNavigation"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Academy.HomePage -->
-      <class name="Academy.validateNavigationBar">
-        <methods>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Academy.validateNavigationBar -->
-      <class name="Academy.validateTitle">
-        <methods>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Academy.validateTitle -->
-    </classes>
-  </test> <!-- Validating User login(failed) -->
   <test name="Validating navigation Bar(failed)" parallel="tests">
     <classes>
       <class name="Academy.validateNavigationBar">
@@ -44,6 +24,26 @@
       </class> <!-- Academy.validateTitle -->
     </classes>
   </test> <!-- Validating navigation Bar(failed) -->
+  <test name="Validating User login(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.validateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validateNavigationBar -->
+      <class name="Academy.validateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validateTitle -->
+    </classes>
+  </test> <!-- Validating User login(failed) -->
   <test name="Validating title in the Page(failed)" parallel="tests">
     <classes>
       <class name="Academy.validateNavigationBar">

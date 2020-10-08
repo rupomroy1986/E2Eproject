@@ -1,6 +1,2 @@
-19:00:26.670 [main] INFO  resources.base -  driver is initialized for bar validation checking
-19:00:32.379 [main] INFO  resources.base -  url initiated for the navigation bar validations
-19:00:32.797 [main] INFO  resources.base - Navigation Bar is displayed
-22:18:30.901 [main] INFO  resources.base -  driver is initialized for bar validation checking
-22:18:34.547 [main] INFO  resources.base -  url initiated for the navigation bar validations
-22:18:34.915 [main] INFO  resources.base - Navigation Bar is displayed
+16:28:28.845 [main] INFO  resources.base - Driver is initialized for validated title page
+16:29:30.397 [main] INFO  resources.base - Navigated to Home page to validate the title of the featured courses
