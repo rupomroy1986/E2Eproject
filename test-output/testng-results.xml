@@ -1,127 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="38177" started-at="2020-06-22T12:02:10Z" finished-at="2020-06-22T12:02:49Z">
+  <suite name="Suite" duration-ms="45363" started-at="2020-10-08T12:57:44Z" finished-at="2020-10-08T12:58:30Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@72d818d1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="App Testing" duration-ms="14" started-at="2020-06-22T12:02:10Z" finished-at="2020-06-22T12:02:11Z">
-    </test> <!-- App Testing -->
-    <test name="Validating navigation Bar" duration-ms="18800" started-at="2020-06-22T12:02:11Z" finished-at="2020-06-22T12:02:29Z">
-      <class name="Academy.validateNavigationBar">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateNavigationBar@247310d0]" name="initialize" is-config="true" duration-ms="17985" started-at="2020-06-22T12:02:11Z" finished-at="2020-06-22T12:02:28Z">
+    <test name="Validating User login and check successful login" duration-ms="45363" started-at="2020-10-08T12:57:44Z" finished-at="2020-10-08T12:58:30Z">
+      <class name="cucumberOptions.testRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.testRunner@72d818d1]" name="setUpClass" is-config="true" duration-ms="1379" started-at="2020-10-08T12:57:44Z" finished-at="2020-10-08T12:57:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:Academy.validateNavigationBar@247310d0]" name="validateAppNavBar" duration-ms="257" started-at="2020-06-22T12:02:28Z" finished-at="2020-06-22T12:02:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateAppNavBar -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateNavigationBar@247310d0]" name="teardown" is-config="true" duration-ms="549" started-at="2020-06-22T12:02:29Z" finished-at="2020-06-22T12:02:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Academy.validateNavigationBar -->
-    </test> <!-- Validating navigation Bar -->
-    <test name="Validating title in the Page" duration-ms="18836" started-at="2020-06-22T12:02:10Z" finished-at="2020-06-22T12:02:29Z">
-      <class name="Academy.validateTitle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@7d9d0818]" name="initialize" is-config="true" duration-ms="17586" started-at="2020-06-22T12:02:10Z" finished-at="2020-06-22T12:02:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Academy.validateTitle@7d9d0818]" name="validateAppTitle" duration-ms="275" started-at="2020-06-22T12:02:28Z" finished-at="2020-06-22T12:02:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateAppTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateTitle@7d9d0818]" name="teardown" is-config="true" duration-ms="958" started-at="2020-06-22T12:02:28Z" finished-at="2020-06-22T12:02:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Academy.validateTitle -->
-    </test> <!-- Validating title in the Page -->
-    <test name="Validating User login" duration-ms="38177" started-at="2020-06-22T12:02:10Z" finished-at="2020-06-22T12:02:49Z">
-      <class name="Academy.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@606e4010]" name="initialize" is-config="true" duration-ms="5048" started-at="2020-06-22T12:02:10Z" finished-at="2020-06-22T12:02:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@606e4010]" name="basePageNavigation" duration-ms="19492" started-at="2020-06-22T12:02:16Z" data-provider="getData" finished-at="2020-06-22T12:02:35Z">
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@72d818d1]" name="feature" duration-ms="43784" started-at="2020-10-08T12:57:46Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-08T12:58:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[nonrestricteduser@qw.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Restrcited User]]>
+                <![CDATA[Login into application]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="FAIL" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@606e4010]" name="basePageNavigation" duration-ms="12687" started-at="2020-06-22T12:02:35Z" data-provider="getData" finished-at="2020-06-22T12:02:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[restricteduser@qw.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[456788]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Non restricted user]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"[id='user_email']"}
-  (Session info: chrome=83.0.4103.106)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'RUPOM-RUPS', ip: '192.168.0.106', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='query']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'RUPOM-RUPS', ip: '192.168.0.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\rupom\AppData\Local\Temp\scoped_dir17416_1741131887}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54547}, acceptInsecureCerts=false, browserVersion=83.0.4103.106, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
-Session ID: 69906185af8e670e664c936525f79de5
-*** Element info: {Using=css selector, value=[id='user_email']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\rupom\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f09cdad2685280ab4f4912dffe2244c6
+*** Element info: {Using=name, value=query}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[id='user_email']"}
-  (Session info: chrome=83.0.4103.106)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'RUPOM-RUPS', ip: '192.168.0.106', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='query']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'RUPOM-RUPS', ip: '192.168.0.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\rupom\AppData\Local\Temp\scoped_dir17416_1741131887}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54547}, acceptInsecureCerts=false, browserVersion=83.0.4103.106, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
-Session ID: 69906185af8e670e664c936525f79de5
-*** Element info: {Using=css selector, value=[id='user_email']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
-at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-at pageObjects.LoginPage.getEmail(LoginPage.java:38)
-at Academy.HomePage.basePageNavigation(HomePage.java:53)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\rupom\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f09cdad2685280ab4f4912dffe2244c6
+*** Element info: {Using=name, value=query}
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -135,24 +59,55 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='query']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'RUPOM-RUPS', ip: '192.168.0.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\rupom\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f09cdad2685280ab4f4912dffe2244c6
+*** Element info: {Using=name, value=query}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObjects.portalhomepage.getSearchBox(portalhomepage.java:23)
+at stepDefinations.stepDefination.verify_that_user_is_successfully_logged_in(stepDefination.java:48)
+at ✽.Then verify that user is successfully logged in(login.feature:9)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@606e4010]" name="teardown" is-config="true" duration-ms="362" started-at="2020-06-22T12:02:48Z" finished-at="2020-06-22T12:02:49Z">
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.testRunner@72d818d1]" name="tearDownClass" is-config="true" duration-ms="17" started-at="2020-10-08T12:58:30Z" finished-at="2020-10-08T12:58:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Academy.HomePage -->
-    </test> <!-- Validating User login -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.testRunner -->
+    </test> <!-- Validating User login and check successful login -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
-  <listeners>
-    <listener class-name="Academy.listeners"/>
-  </listeners>
-  <test name="Validating User login(failed)" parallel="tests">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Validating User login and check successful login(failed)">
     <classes>
-      <class name="Academy.validateTitle">
+      <class name="cucumberOptions.testRunner">
         <methods>
-          <include name="initialize"/>
-          <include name="teardown"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- Academy.validateTitle -->
-      <class name="Academy.validateNavigationBar">
-        <methods>
-          <include name="initialize"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- Academy.validateNavigationBar -->
-      <class name="Academy.HomePage">
-        <methods>
-          <include name="basePageNavigation" invocation-numbers="1"/>
-          <include name="initialize"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- Academy.HomePage -->
+      </class> <!-- cucumberOptions.testRunner -->
     </classes>
-  </test> <!-- Validating User login(failed) -->
+  </test> <!-- Validating User login and check successful login(failed) -->
 </suite> <!-- Failed suite [Suite] -->

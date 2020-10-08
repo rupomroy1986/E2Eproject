@@ -1,0 +1,5 @@
+23:04:53.401 [TestNG-tests-1] INFO  resources.base - Driver is initialized for the home page
+23:04:53.401 [TestNG-tests-4] INFO  resources.base -  driver is initialized for bar validation checking
+23:04:55.672 [TestNG-tests-2] INFO  resources.base - Driver is initialized for validated title page
+23:05:04.197 [TestNG-tests-4] INFO  resources.base -  url initiated for the navigation bar validations
+23:05:05.216 [TestNG-tests-2] INFO  resources.base - Navigated to Home page to validate the title of the featured courses
